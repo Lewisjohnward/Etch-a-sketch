@@ -1,1 +1,2 @@
 # Etch-a-sketch
+day 0: I don't understand the DOM too well but I'm going to create a 4x4 div wall for the Etch-a-Sketch to start with and improve upon that. Scratch that, first we'll start with a single box I can't make a 4x4.
