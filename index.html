@@ -4,7 +4,20 @@
         <link rel="stylesheet" href ="style.css">
     </head>
     <body>
-        <h1>Etch-a-Sketch</h1>
-        <div class="box"></div>
+        <div class ="header">
+            <h1>Etch-a-Sketch</h1>
+            <form id="size-form">
+                <label for="grid-size">How from 1x1 to 64x64 how big would you like your grid? </label><br>
+                <input type="text" class="form-control mr-2" id="item">
+                <input type="submit" class="btn btn-dark" value="Submit">
+            </form>
+            <button id="gridReset">Reset</button>
+            
+        </div>    
+        <div class="sketchContainer">
+
+        </div>
     <script src="script.js"></script>
     </body>
+
+  
